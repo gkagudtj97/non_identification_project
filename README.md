@@ -5,10 +5,11 @@ YoloX모델 사용
 ## 소개
 이 프로젝트는 라벨링 플랫폼을 위한 비식별화 기술을 연구하고 구현하기 위한 프로토타입 모델입니다.<br>
 인턴 기간 동안 B2en의 AI Biz팀에서 데이터 품질 관리 업무를 수행하면서 이 사이드 프로젝트를 진행했습니다.<br>
+
 08월 - Deeplearn.ai 강의를 바탕으로 딥러닝을 활용한 컴퓨터 비전 스터디 <br>
-10월 - YOLO 모델 논문 리뷰 및 실습 진행
+10월 - YOLO 모델 논문 리뷰 및 실습 진행 <br>
 11월 - 비식별화 모델 고도화 진행하기(Blur, Crop 등)
-12월 - 프로젝트 마무리 및 회고
+12월 - 프로젝트 마무리 및 회고 <br>
 
 Custom Class (데이터셋, 모델)
 WIDER FACE 데이터셋은 32,203개의 이미지에 393,703개의 얼굴이 라벨링된 데이터셋입니다.
@@ -16,8 +17,8 @@ WIDER FACE 데이터셋은 32,203개의 이미지에 393,703개의 얼굴이 라
 데이터를 변형(Augmentation)
 크기 조정(Resize), 수평 반전(Horizontal Flip), 임의 자르기(Random Crop), 색상 변형(Color Jitter), 회전(Rotation), 모자이크(Mosaic Augmentation)
 
-다양한 Metric을 사용해 모델 성능 분석
-Classification : Loss, Confusion Matrix, Accuracy, Precision, Recall, F1-score 등
+다양한 성능지표(Metric)를 사용해 모델 성능 분석
+Classification : Loss, Confusion Matrix, Accuracy, Precision, Recall, F1-score
 Segmentation : Loss, IoU, Dice
 단순히 ~ 점수가 나왔다는 내용 전달 뿐만 아니라, Metric 사이의 비교, 클래스 사이의 점수 비교 등 구체적인 모델 진단을 하도록 노력해보세요.
 ex) F1-score가 80%인데, Precision이 Recall보다 높습니다. Precision이 Recall보다 높은 것은 ~이란 의미고, 데이터의 ~ 한 특성때문에 Precision이 더 높을 것이라고 추정합니다.
