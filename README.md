@@ -34,7 +34,7 @@ Epoch을 길게 설정할 수록 모델은 더 다양한 이미지를 입력받�
 https://discuss.pytorch.org/t/how-to-increase-number-of-images-with-data-augmentation/45795
 
 ## 기간
-2022년 8월 10일부터 2023년 12월 10일까지<br>
+2022년 8월 10일부터 2022년 12월 10일까지<br>
 
 ## 배경
 B2en은 데이터 라벨링과 품질 관리를 한 번에 처리할 수 있는 Laflow라는 플랫폼을 출시하였습니다.<br>
